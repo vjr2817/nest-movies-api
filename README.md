@@ -34,8 +34,8 @@ $ npm run test:cov
 
 ## 
 
-- Movies Post, Find, Put, Delete, Search
-- Set user-role:'admin' for Post,Put,Delete 
+- Movies Post,GetAll, Put, Delete, Search
+- Set header user-role:'admin' for Post,Put,Delete 
 
 ```bash
 
