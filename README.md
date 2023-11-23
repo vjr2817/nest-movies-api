@@ -65,7 +65,7 @@ $  curl --location 'https://localhost:3000/movies/'
 
 # Get  Movies by search on title, genre
 
-$  curl --location 'https://localhost:3000/movies?query=<search>' 
+$  curl --location 'https://localhost:3000/movies/search?query=<search>' 
 
 ```
 

@@ -32,6 +32,7 @@ export class MoviesController {
     }
     @Get('/search')
     async search(@Query() queryObj: any) {
+        if(!queryObj.query){queryObj.query = ""};
         const result = await this.movieService.
             findAll({
                 $or: [
